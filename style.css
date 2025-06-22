@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Picture */
+#profile-pic {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid #3498db;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Bio */
+.bio {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* List */
+ul {
+    list-style-type: circle;
+    text-align: left;
+    padding-left: 20px;
+    margin: 10px 0 20px 0;
+}
+
+/* Contact Section */
+.contact p {
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+/* Links */
+a[href] {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a[href]:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+/* Group selector */
+h1, h2 {
+    font-weight: 600;
+}
